@@ -1,0 +1,41 @@
+{
+  "name": "@wofh/eslint-config-wofh",
+  "version": "0.1.0",
+  "description": "WOFH's JS ESLint config, following WOFH javascript style guide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wofh/javascript-style-guide.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "wofh",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Stefano Marra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wofh/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/wofh/javascript-style-guide#readme",
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.10",
+    "object.assign": "^4.1.2",
+    "object.entries": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
