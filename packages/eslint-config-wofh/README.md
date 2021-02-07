@@ -22,4 +22,4 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
   npm install --save-dev @wofh/eslint-config eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
-2. Add `"extends": "wofh"` to your .eslintrc.
+2. Add `"extends": "@wofh"` to your .eslintrc.
