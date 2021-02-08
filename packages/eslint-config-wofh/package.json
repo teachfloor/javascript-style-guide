@@ -1,6 +1,6 @@
 {
   "name": "@wofh/eslint-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "WOFH's JS ESLint config, following WOFH javascript style guide",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,9 @@
   "homepage": "https://github.com/wofh/javascript-style-guide#readme",
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.10",
