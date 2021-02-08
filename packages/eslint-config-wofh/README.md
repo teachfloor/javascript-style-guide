@@ -26,8 +26,8 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
 
 ### @wofh/eslint-config/hooks
 
-This entry point enables the linting rules for React hooks (requires v16.8+). To use, add `"extends": ["@wofh", "@wofh/hooks"]` to your `.eslintrc`
+This entry point enables the linting rules for React hooks (requires v16.8+). To use, add `"extends": ["@wofh", "@wofh/eslint-config/hooks"]` to your `.eslintrc`
 
 ### @wofh/eslint-config/whitespace
 
-This entry point only errors on whitespace rules and sets all other rules to warnings.
+This entry point only errors on whitespace rules and sets all other rules to warnings. To use, add `"extends": ["@wofh", "@wofh/eslint-config/whitespace"]` to your `.eslintrc`
