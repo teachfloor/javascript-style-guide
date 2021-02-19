@@ -1,6 +1,6 @@
 {
   "name": "@wofh/eslint-config",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "WOFH's JS ESLint config, following WOFH javascript style guide",
   "main": "index.js",
   "scripts": {
