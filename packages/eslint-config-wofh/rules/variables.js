@@ -31,7 +31,7 @@ module.exports = {
     ].concat(confusingBrowserGlobals),
 
     // disallow declaration of variables already declared in the outer scope
-    'no-shadow': 'error',
+    'no-shadow': 'off',
 
     // disallow shadowing of names such as arguments
     'no-shadow-restricted-names': 'error',
