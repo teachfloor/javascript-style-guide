@@ -1,4 +1,4 @@
-# WOFH JavaScript Style Guide
+# Teachfloor JavaScript Style Guide
 
 ## What is a style guide?
 * A style guide is a set of standards that outline how code should be written and organized.
